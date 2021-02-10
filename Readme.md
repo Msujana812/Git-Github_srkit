@@ -26,3 +26,25 @@ vim filename-->filename open with vim editor
 ctrl+c
 At the bottom of the file type `:w` to save the code
 `:q` to exit the file
+
+Git structure:
+
+*untracked area
+    - `git status`--> To know the status and file or project
+    - `git init`--> To install git repository
+    - `ls -a` --> to see hidden git repository
+    - `git add filename`--> to add file to git
+    - `git status`
+    - `git rm` --cached filename--> Remove file from stagging area to untracked area
+    - `git status`
+    - `rm filename--> to remove file 
+    - git commit -m "basic data"
+    - Config user name and email
+    - if git contains prvious user name and email 
+check username with `git config --gobal user.name`,similarly check user email with
+`git config --global user.email`
+    - If you are not the user try to delete previous user data
+        -Go to credential manager->windows creditinals-->remove git creditinals
+        -To remove username `git config --global --unset user.name "previous user name"
+*Stagging area/Tracking area
+*Commit area
