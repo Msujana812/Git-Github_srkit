@@ -48,3 +48,6 @@ check username with `git config --gobal user.name`,similarly check user email wi
         -To remove username `git config --global --unset user.name "previous user name"
 *Stagging area/Tracking area
 *Commit area
+
+try to add full details of gt commands
+second time suggestions try to complete git commands
